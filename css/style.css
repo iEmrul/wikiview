@@ -1,1 +1,62 @@
-sdf
+body {
+  margin: 0 auto;
+  background: rgb(79, 88, 102);
+  background-size: cover;
+  background-position: center center;
+  background-attachment:fixed;
+  font-family:'Merriweather',serif;
+}
+.header{
+  margin: 0 auto;
+  text-align:center;
+  margin-top: 50px;
+  width: 50%;
+}
+  a:link, a:hover, a:visited{
+    text-decoration:none;
+    color:white;
+    
+  }
+
+input[type=text] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 5px solid rgb(41, 51, 66);
+    border-radius: 4px;
+    color: white;
+    font-size: 1.5em;
+    font-family:'Merriweather',serif;
+    background-color: rgb(58, 57, 44);
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+  outline-width: 0;
+}
+.search{
+  margin: 20px;
+}
+
+.block{
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.block:hover{
+  border-left: 10px solid rgb(229, 142, 66);
+}
+#title{
+  font-size: 2em;
+  
+}
+.link{
+  transparency:0.1;
+}
+
